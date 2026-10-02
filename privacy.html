@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — NRCHIVE Hetzner Backups</title>
+<style>body{font:18px/1.6 system-ui,sans-serif;max-width:720px;margin:64px auto;padding:0 24px;color:#202020}a{color:#2055a4}h1,h2{line-height:1.2}</style>
+<main><p><a href="index.html">NRCHIVE Hetzner Backups</a></p><h1>Privacy information</h1>
+<p>Updated October 2, 2026. This tool is operated by Nick Rupprechter solely for his personal research backups.</p>
+<h2>Google access and use</h2>
+<p>The tool requests the Google Drive <code>drive.file</code> permission to create its private backup folder, upload encrypted archives, list and download its own files for verification and recovery, and remove older backup files after a replacement is verified. It does not request permission to read unrelated Drive files or other Google services.</p>
+<h2>Storage and protection</h2>
+<p>Archive contents and filenames are encrypted before upload. Google stores these encrypted files in the operator's Drive account. The uploader runs on Hetzner and uses a restricted, encrypted authorization configuration for unattended access. The backup decryption secret is retained separately for recovery. The planned retention is seven daily recovery points.</p>
+<p>Running-server compromise can expose its credentials or encryption keys. These backups are recovery copies, not an immutable offline vault.</p>
+<h2>Sharing and revocation</h2>
+<p>The tool does not publish backup contents or use Google user data for advertising, analytics, model training, or a public service. No other users are granted access to its private backup folder by this workflow. Google and Hetzner provide the storage and hosting services described above.</p>
+<p>The operator can revoke the application's authorization in Google Account settings and remove its backup files from Drive. Revocation stops future access but does not automatically delete existing archives.</p>
+<h2>Operator</h2><p><a href="https://github.com/NickRuppy">Nick Rupprechter's GitHub profile</a>. This application is not offered to other users.</p>
+</main></html>
